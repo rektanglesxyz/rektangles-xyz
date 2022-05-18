@@ -176,6 +176,11 @@ footer a {
     .middleEarth .responsive {
         margin: 32px 20vw;
     }
+
+    .hero {
+        border-bottom: 5px solid #FFF;
+        border-top: 5px solid #FFF;
+    }
 }
 
 @media screen and (min-width: 1920px) {
@@ -191,6 +196,4 @@ footer a {
     .headerWrapper {
         margin: 0px 30vw;
     }
-
-
 }
