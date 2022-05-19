@@ -159,6 +159,11 @@ header button {
     justify-self: center;
 }
 
+.roadmap h2 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
 footer {
     background-color: var(--teal);
     padding: 32px;
@@ -201,6 +206,7 @@ footer a {
 
     .roadmap img {
         margin: 0px 20vw;
+        transform: rotate(-90deg);
     }
 }
 
@@ -220,5 +226,10 @@ footer a {
 
     .xxl {
         display: block;
+    }
+
+    .roadmap img {
+        margin: 0px 20vw;
+        transform: rotate(-90deg);
     }
 }
