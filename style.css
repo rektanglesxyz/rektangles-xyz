@@ -83,6 +83,10 @@ header button {
     display: none;
 }
 
+.xxl {
+    display: none;
+}
+
 .intro {
     background-color: var(--yellow);
     padding: 32px;
@@ -142,6 +146,15 @@ header button {
     color: var(--green);
 }
 
+.roadmap {
+    background-color: var(--pink);
+    padding: 32px;
+}
+
+.roadmap img {
+    max-width: 100%;
+}
+
 footer {
     background-color: var(--teal);
     padding: 32px;
@@ -181,6 +194,10 @@ footer a {
         border-bottom: 5px solid #FFF;
         border-top: 5px solid #FFF;
     }
+
+    .roadmap img {
+        margin: 0px 20vw;
+    }
 }
 
 @media screen and (min-width: 1920px) {
@@ -195,5 +212,9 @@ footer a {
 
     .headerWrapper {
         margin: 0px 30vw;
+    }
+
+    .xxl {
+        display: block;
     }
 }
