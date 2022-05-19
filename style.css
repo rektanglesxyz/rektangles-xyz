@@ -48,6 +48,8 @@ button {
 header {
     background-color: var(--pink);
     padding: 32px;
+    position: sticky;
+    top: 0;
 }
 
 .headerWrapper {
@@ -147,12 +149,14 @@ header button {
 }
 
 .roadmap {
-    background-color: var(--pink);
+    background-color: var(--grey);
     padding: 32px;
+    display: grid;
 }
 
 .roadmap img {
     max-width: 100%;
+    justify-self: center;
 }
 
 footer {
@@ -181,7 +185,7 @@ footer a {
     .gallery__item--10 {
         display: block;
     }
-    
+
     .responsive {
         margin: 0px 20vw;
     }
